@@ -3408,6 +3408,20 @@ input, select, textarea {
 				width: 2.25em;
 			}
 
+
+		#banner .image {
+			border-radius: 100%;
+			margin: 0 3em 2em 0;
+			width: 22em;
+			overflow: hidden;
+			-ms-flex: 1;
+		}
+
+			#banner .image img {
+				border-radius: 100%;
+				width: 100%;
+			}
+
 		#banner h2 {
 			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
