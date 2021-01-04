@@ -37,3 +37,25 @@
 		-ms-filter: none;
 		filter: none;
 	}
+	body.is-preload #banner i {
+		opacity: 01;
+		-moz-transform: none;
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none;
+		-moz-filter: none;
+		-webkit-filter: none;
+		-ms-filter: none;
+		filter: none;
+	}
+	body.is-preload #banner a {
+		opacity: 01;
+		-moz-transform: none;
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none;
+		-moz-filter: none;
+		-webkit-filter: none;
+		-ms-filter: none;
+		filter: none;
+	}

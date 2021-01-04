@@ -3421,7 +3421,25 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 100%;
 			}
-
+		#banner i {
+			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
+			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
+			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
+			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+			-moz-transform: translateY(0);
+			-webkit-transform: translateY(0);
+			-ms-transform: translateY(0);
+			transform: translateY(0);
+			-moz-transition-delay: 0.8s;
+			-webkit-transition-delay: 0.8s;
+			-ms-transition-delay: 0.8s;
+			transition-delay: 0.8s;
+			-moz-filter: blur(0);
+			-webkit-filter: blur(0);
+			-ms-filter: blur(0);
+			filter: blur(0);
+			opacity: 1;
+		}
 		#banner h2 {
 			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
@@ -3470,6 +3488,30 @@ input, select, textarea {
 			letter-spacing: 0.1em;
 			line-height: 2;
 			text-transform: uppercase;
+		}
+		#banner a {
+			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
+			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
+			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
+			transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
+			-moz-transform: translateX(0);
+			-webkit-transform: translateX(0);
+			-ms-transform: translateX(0);
+			transform: translateX(0);
+			-moz-transition-delay: 0.8s;
+			-webkit-transition-delay: 0.8s;
+			-ms-transition-delay: 0.8s;
+			transition-delay: 0.8s;
+			-moz-filter: blur(0);
+			-webkit-filter: blur(0);
+			-ms-filter: blur(0);
+			filter: blur(0);
+			opacity: 1;
+			font-family: Raleway, Helvetica, sans-serif;
+			font-size: 1em;
+			font-weight: 200;
+			letter-spacing: 0.1em;
+			line-height: 2;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3544,6 +3586,28 @@ input, select, textarea {
 		}
 
 		body.is-preload #banner p {
+			opacity: 0;
+			-moz-transform: translateX(0.5em);
+			-webkit-transform: translateX(0.5em);
+			-ms-transform: translateX(0.5em);
+			transform: translateX(0.5em);
+			-moz-filter: blur(2px);
+			-webkit-filter: blur(2px);
+			-ms-filter: blur(2px);
+			filter: blur(2px);
+		}
+		body.is-preload #banner i {
+			opacity: 0;
+			-moz-transform: translateX(0.5em);
+			-webkit-transform: translateX(0.5em);
+			-ms-transform: translateX(0.5em);
+			transform: translateX(0.5em);
+			-moz-filter: blur(2px);
+			-webkit-filter: blur(2px);
+			-ms-filter: blur(2px);
+			filter: blur(2px);
+		}
+		body.is-preload #banner a {
 			opacity: 0;
 			-moz-transform: translateX(0.5em);
 			-webkit-transform: translateX(0.5em);
